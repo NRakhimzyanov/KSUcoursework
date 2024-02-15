@@ -42,6 +42,8 @@
   <subsystems>Subsystem.ОтделКадров</subsystems>
   <subsystems>Subsystem.ОтделЗакупок</subsystems>
   <subsystems>Subsystem.ОтделПродаж</subsystems>
+  <subsystems>Subsystem.ПроизводственныйОтдел</subsystems>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <constants>Constant.ГенеральныйДиректор</constants>
@@ -53,6 +55,9 @@
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.ПроизводствоПродукции</documents>
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>

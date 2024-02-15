@@ -200,6 +200,53 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>Основание</name>
+    <id>75</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Основание</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ОснованиеРасширеннаяПодсказка</name>
+      <id>77</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ОснованиеКонтекстноеМеню</name>
+      <id>76</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>LabelField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:LabelFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <hyperlink>true</hyperlink>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormGroup">
     <name>Страницы</name>
     <id>13</id>
@@ -466,7 +513,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -666,7 +712,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Материалы</value>
+        <value>СписокМатериалов</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСписокМатериаловРасширеннаяПодсказка</name>
@@ -952,7 +998,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1152,7 +1197,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Расходники</value>
+        <value>СписокРасходников</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСписокРасходниковРасширеннаяПодсказка</name>
@@ -1229,7 +1274,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ЗаказПоставщику</types>
+      <types>DocumentObject.ПриходнаяНакладная</types>
     </valueType>
     <view>
       <common>true</common>

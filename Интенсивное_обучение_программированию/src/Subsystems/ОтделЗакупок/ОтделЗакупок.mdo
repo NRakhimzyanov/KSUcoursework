@@ -18,4 +18,5 @@
   <content>Enum.ВидКонтрагента</content>
   <content>Enum.ВидНоменклатуры</content>
   <content>Enum.ПроисхождениеНоменклатуры</content>
+  <content>Document.ПриходнаяНакладная</content>
 </mdclass:Subsystem>

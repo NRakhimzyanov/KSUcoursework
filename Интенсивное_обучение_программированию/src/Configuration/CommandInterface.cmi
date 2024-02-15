@@ -3,6 +3,8 @@
   <subsystemsOrder>
     <subsystems>Subsystem.ОтделЗакупок</subsystems>
     <subsystems>Subsystem.ОтделПродаж</subsystems>
+    <subsystems>Subsystem.ПроизводственныйОтдел</subsystems>
+    <subsystems>Subsystem.Бухгалтерия</subsystems>
     <subsystems>Subsystem.ОтделКадров</subsystems>
     <subsystems>Subsystem.Алгоритмы</subsystems>
   </subsystemsOrder>
