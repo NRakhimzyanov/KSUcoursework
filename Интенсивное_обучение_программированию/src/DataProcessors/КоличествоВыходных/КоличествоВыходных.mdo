@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27b318e3-0e3b-418e-8cd6-3e7f93c7b9c2">
+  <producedTypes>
+    <objectType typeId="5766a9a0-8bc0-420b-8e3e-9aadfd36257e" valueTypeId="c1c10a5c-223b-4252-a869-793e62c9602e"/>
+    <managerType typeId="2c8beedc-7eb9-4895-9d84-9a38c18e395e" valueTypeId="2820a66f-cb7b-4869-b0a2-c271793ae136"/>
+  </producedTypes>
+  <name>КоличествоВыходных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество выходных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КоличествоВыходных.Form.Форма</defaultForm>
+  <forms uuid="54a1fa26-0fdb-4ead-a0cc-c97ad87042df">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

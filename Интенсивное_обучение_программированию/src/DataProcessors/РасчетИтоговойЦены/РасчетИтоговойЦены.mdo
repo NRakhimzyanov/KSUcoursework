@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f822e6ca-bfb8-42f7-ac1d-d84e0d00012d">
+  <producedTypes>
+    <objectType typeId="2fde7646-1eb5-4c7a-87f9-e005b35f529d" valueTypeId="77e98242-b0c0-430b-a4d1-5b58b97d397c"/>
+    <managerType typeId="510ebfee-510c-480e-bf55-323e45f31f34" valueTypeId="35b6b4b8-0a5e-4e6e-b4b7-be350fb1e0ec"/>
+  </producedTypes>
+  <name>РасчетИтоговойЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет итоговой цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасчетИтоговойЦены.Form.Форма</defaultForm>
+  <attributes uuid="1fd1a1d6-5867-4e6c-b2d6-cc559dd47e01">
+    <name>СебестоимостьТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость товара</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0efc38c7-3782-494b-ab18-db136000ec7a">
+    <name>Наценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4e8b7800-e5f9-41eb-a5c9-d853f5bd6517">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f1293ac-2f70-4710-9c0c-b96bc3200012">
+    <name>ИтоговаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговая цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5d403ee0-d929-4fe0-87a5-3d0800b0754c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

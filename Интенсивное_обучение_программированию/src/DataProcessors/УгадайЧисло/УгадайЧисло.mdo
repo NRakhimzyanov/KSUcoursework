@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f631a7f4-8a41-4b06-be01-ca6b86ace8b8">
+  <producedTypes>
+    <objectType typeId="dd54c87b-f03e-4d8c-923b-c8e4303dab26" valueTypeId="fbcbfb08-e98e-4dc3-8dbe-39dc7903f07d"/>
+    <managerType typeId="adef2df6-ad44-49ac-86de-9c1ba6d8f05a" valueTypeId="eb65fce2-7b8e-4efa-aa48-b33b181d3f29"/>
+  </producedTypes>
+  <name>УгадайЧисло</name>
+  <synonym>
+    <key>ru</key>
+    <value>Угадай число</value>
+  </synonym>
+  <comment>ДЗ блок 7</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УгадайЧисло.Form.УгадайЧисло</defaultForm>
+  <attributes uuid="d3a88496-554b-4513-a3ea-de7e6e55c50c">
+    <name>ЗагаданноеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загаданное число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="10672f6c-6dd2-42a7-add9-bc58a1ce7ff3">
+    <name>Вариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2b78b4fc-edcf-4522-aa73-08e279933695">
+    <name>УгадайЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Угадай число</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

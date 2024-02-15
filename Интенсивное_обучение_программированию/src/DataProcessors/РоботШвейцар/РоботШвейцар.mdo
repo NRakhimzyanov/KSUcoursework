@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cdcd57a-8abf-4a74-897f-a5ea15486ec7">
+  <producedTypes>
+    <objectType typeId="057e9930-946d-4e9b-a0de-37f66dcef496" valueTypeId="9dd4a310-3cc0-489b-b12f-f25dd8275366"/>
+    <managerType typeId="995173e3-7127-425c-a462-84b7a930cecc" valueTypeId="ac52c0eb-9649-4721-93ec-79375fbcad16"/>
+  </producedTypes>
+  <name>РоботШвейцар</name>
+  <synonym>
+    <key>ru</key>
+    <value>Робот швейцар</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РоботШвейцар.Form.Форма</defaultForm>
+  <attributes uuid="ca76afcb-943b-4423-9c09-5220a88647a3">
+    <name>КоличествоКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество клиентов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c92ecc29-5b07-4aad-998e-8df2bce17a89">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

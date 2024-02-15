@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9664c45-6fb3-4b31-9881-efae48b2b8ea">
+  <producedTypes>
+    <objectType typeId="a63fde8f-d8ae-4f13-ac31-dc7a6977cc23" valueTypeId="968cef79-590a-4467-a55c-11f244aaf071"/>
+    <managerType typeId="4c358d91-976c-4d41-9f67-e9e685f922ea" valueTypeId="f505df33-8343-4eda-8d16-044b55083393"/>
+  </producedTypes>
+  <name>ОсталосьВремениДоКонцаЗанятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Осталось времени до конца занятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОсталосьВремениДоКонцаЗанятия.Form.Форма</defaultForm>
+  <attributes uuid="071e1eeb-b8fb-4086-80fd-53942634a71e">
+    <name>ДатаВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="684df376-8713-4f05-8806-3cc4eb23797e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eebcf802-db99-4491-8211-00eb39845bd3">
+  <producedTypes>
+    <refType typeId="c5fd1cc1-1c1c-4d1e-9f1f-f1f6cc113223" valueTypeId="15f6369f-0f32-495f-8fb8-5913dc38f92b"/>
+    <listType typeId="1d8bfaf5-285e-497e-a265-4d277cf95517" valueTypeId="3aaa1aef-220d-41e5-8710-fd9750c15a48"/>
+    <managerType typeId="612b7fa6-bab3-45e9-985f-d3db11fab6d3" valueTypeId="816ca9fb-7cf3-4a1d-b276-fbef972eaa46"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="158b6cb7-4ae7-43f6-96d1-e017f00aef66">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00bf640b-98e5-4c0d-b04b-8e7041dcf6f0">
+    <name>РасходныйМатериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходный материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4a2c04c-d795-4b79-9d6c-2c08a892472f">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90f021c7-e6f6-4578-a0c2-919abf3776e0">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
