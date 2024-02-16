@@ -100,6 +100,12 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ВидНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидНоменклатуры.EnumValue.Товар</value>
+        </value>
+      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -143,6 +149,12 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ВидНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидНоменклатуры.EnumValue.Материал</value>
+        </value>
+      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

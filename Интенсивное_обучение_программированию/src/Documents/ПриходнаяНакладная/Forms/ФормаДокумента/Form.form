@@ -712,7 +712,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>СписокМатериалов</value>
+        <value>Материалы</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСписокМатериаловРасширеннаяПодсказка</name>
@@ -1197,7 +1197,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>СписокРасходников</value>
+        <value>Расходники</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСписокРасходниковРасширеннаяПодсказка</name>

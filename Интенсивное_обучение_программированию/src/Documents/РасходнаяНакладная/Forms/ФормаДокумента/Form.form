@@ -325,6 +325,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.СписокТоваров.Цена</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>СписокТоваровЦенаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>СписокТоваровЦенаРасширеннаяПодсказка</name>
             <id>38</id>
@@ -350,14 +354,22 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>LabelField</type>
+          <type>InputField</type>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
+          <footerText>
+            <key>ru</key>
+            <value>Итого:</value>
+          </footerText>
+          <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -371,6 +383,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.СписокТоваров.Количество</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>СписокТоваровКоличествоПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>СписокТоваровКоличествоРасширеннаяПодсказка</name>
             <id>41</id>
@@ -401,6 +417,9 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <footerDataPath xsi:type="form:DataPath">
+            <segments>Объект.СписокТоваров.TotalКоличество</segments>
+          </footerDataPath>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -421,6 +440,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.СписокТоваров.ПроцентСкидки</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>СписокТоваровПроцентСкидкиПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>СписокТоваровПроцентСкидкиРасширеннаяПодсказка</name>
             <id>44</id>
@@ -497,10 +520,14 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
+          <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <footerDataPath xsi:type="form:DataPath">
+            <segments>Объект.СписокТоваров.TotalСумма</segments>
+          </footerDataPath>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -670,6 +697,7 @@
         <selectionMode>MultiRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
+        <footer>true</footer>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>
@@ -691,7 +719,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>СписокТоваров</value>
+        <value>Товары</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСписокТоваровРасширеннаяПодсказка</name>
@@ -816,6 +844,10 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <footerText>
+            <key>ru</key>
+            <value>Итого:</value>
+          </footerText>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -866,6 +898,9 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <footerDataPath xsi:type="form:DataPath">
+            <segments>Объект.СписокУслуг.TotalСумма</segments>
+          </footerDataPath>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1035,6 +1070,7 @@
         <selectionMode>MultiRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
+        <footer>true</footer>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>
@@ -1056,7 +1092,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>СписокУслуг</value>
+        <value>Услуги</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСписокУслугРасширеннаяПодсказка</name>
