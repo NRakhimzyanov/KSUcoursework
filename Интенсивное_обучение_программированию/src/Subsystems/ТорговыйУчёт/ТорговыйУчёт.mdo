@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75746a3b-8534-4c8f-af14-bbb3fdef4104">
-  <name>ОтделЗакупок</name>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7644f155-4ba6-4ffd-8191-3c701a2baa36">
+  <name>ТорговыйУчёт</name>
   <synonym>
     <key>ru</key>
-    <value>Отдел закупок</value>
+    <value>Торговый учёт</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>DefinedType.ДенежныеСредства</content>
-  <content>Constant.ГенеральныйДиректор</content>
-  <content>Constant.ИНН_Организации</content>
-  <content>Constant.НаименованиеОрганизации</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Договоры</content>
   <content>Document.ЗаказПоставщику</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.РасходнаяНакладная</content>
   <content>Enum.ВидКонтрагента</content>
   <content>Enum.ВидНоменклатуры</content>
   <content>Enum.ПроисхождениеНоменклатуры</content>
-  <content>Document.ПриходнаяНакладная</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>CommandGroup.УчётныеДанные</content>
+  <content>CommandGroup.ТорговыеОперации</content>
 </mdclass:Subsystem>

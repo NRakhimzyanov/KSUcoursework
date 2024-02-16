@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="171eab47-df01-40a9-9416-3a35cffa64c1">
-  <name>ОтделКадров</name>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2523794-11f0-4445-8c60-6fcc171456e7">
+  <name>НСИ</name>
   <synonym>
     <key>ru</key>
-    <value>Отдел кадров</value>
+    <value>НСИ</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>DefinedType.ДенежныеСредства</content>
   <content>CommonForm.ДанныеОрганизации</content>
   <content>Constant.ГенеральныйДиректор</content>
   <content>Constant.ИНН_Организации</content>
   <content>Constant.НаименованиеОрганизации</content>
-  <content>Catalog.Сотрудники</content>
 </mdclass:Subsystem>

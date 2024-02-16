@@ -3,7 +3,7 @@
   <name>Фактория</name>
   <synonym>
     <key>ru</key>
-    <value>Фактория</value>
+    <value>1С:Фактория</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="00a6f656-0611-48a5-b66b-aa3948dc42fe"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6af990cc-9252-402c-b880-b8ad2d0a90e8"/>
@@ -38,14 +38,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.КадровыйУчёт</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.ПроизводственныйУчёт</subsystems>
+  <subsystems>Subsystem.ТорговыйУчёт</subsystems>
   <subsystems>Subsystem.Алгоритмы</subsystems>
-  <subsystems>Subsystem.ОтделКадров</subsystems>
-  <subsystems>Subsystem.ОтделЗакупок</subsystems>
-  <subsystems>Subsystem.ОтделПродаж</subsystems>
-  <subsystems>Subsystem.ПроизводственныйОтдел</subsystems>
-  <subsystems>Subsystem.Бухгалтерия</subsystems>
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
+  <commandGroups>CommandGroup.ТорговыеОперации</commandGroups>
+  <commandGroups>CommandGroup.УчётныеДанные</commandGroups>
+  <commandGroups>CommandGroup.ПроизводственныеОперации</commandGroups>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН_Организации</constants>
   <constants>Constant.НаименованиеОрганизации</constants>
@@ -68,4 +70,5 @@
   <dataProcessors>DataProcessor.ФамилияИнициалы</dataProcessors>
   <dataProcessors>DataProcessor.ОсталосьВремениДоКонцаЗанятия</dataProcessors>
   <dataProcessors>DataProcessor.КоличествоВыходных</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

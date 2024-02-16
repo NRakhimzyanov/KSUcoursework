@@ -10,7 +10,7 @@
   <name>Контрагенты</name>
   <synonym>
     <key>ru</key>
-    <value>Контрагенты</value>
+    <value>Контрагенты компании</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
@@ -21,7 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Контрагент</value>
+    <value>Контрагент компании</value>
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
@@ -29,7 +29,7 @@
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Контрагенты</value>
+    <value>Контрагенты компании</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
