@@ -19,4 +19,5 @@
   <content>AccumulationRegister.Продажи</content>
   <content>CommandGroup.УчётныеДанные</content>
   <content>CommandGroup.ТорговыеОперации</content>
+  <content>Report.ОтчетПоПродажам</content>
 </mdclass:Subsystem>

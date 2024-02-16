@@ -44,6 +44,8 @@
   <subsystems>Subsystem.ТорговыйУчёт</subsystems>
   <subsystems>Subsystem.Алгоритмы</subsystems>
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.РаботаСДанными</roles>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <commandGroups>CommandGroup.ТорговыеОперации</commandGroups>
   <commandGroups>CommandGroup.УчётныеДанные</commandGroups>
@@ -63,6 +65,7 @@
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
+  <reports>Report.ОтчетПоПродажам</reports>
   <dataProcessors>DataProcessor.УгадайЧисло</dataProcessors>
   <dataProcessors>DataProcessor.РоботШвейцар</dataProcessors>
   <dataProcessors>DataProcessor.РасчетИтоговойЦены</dataProcessors>
