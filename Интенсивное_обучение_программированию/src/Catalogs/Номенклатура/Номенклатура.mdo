@@ -212,4 +212,18 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="1bfca002-c0d7-42dd-99a7-fda95ec28212">
+    <name>ИзменитьВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить вид номенклатуры</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <modifiesData>true</modifiesData>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>
