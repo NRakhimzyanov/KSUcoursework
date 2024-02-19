@@ -46,6 +46,9 @@
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <roles>Role.Администратор</roles>
   <roles>Role.РаботаСДанными</roles>
+  <commonModules>CommonModule.РаботаСКонстантамиВызовСервера</commonModules>
+  <commonModules>CommonModule.УКЗ_Клиент</commonModules>
+  <commonModules>CommonModule.УКЗ_ВызовСервера</commonModules>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <commandGroups>CommandGroup.ТорговыеОперации</commandGroups>
   <commandGroups>CommandGroup.УчётныеДанные</commandGroups>
