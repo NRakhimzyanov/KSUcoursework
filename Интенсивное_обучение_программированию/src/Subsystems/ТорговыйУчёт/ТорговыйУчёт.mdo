@@ -20,4 +20,5 @@
   <content>CommandGroup.УчётныеДанные</content>
   <content>CommandGroup.ТорговыеОперации</content>
   <content>Report.ОтчетПоПродажам</content>
+  <content>InformationRegister.ЦенаНоменклатуры</content>
 </mdclass:Subsystem>

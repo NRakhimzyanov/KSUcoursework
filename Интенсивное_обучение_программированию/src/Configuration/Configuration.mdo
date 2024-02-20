@@ -76,5 +76,6 @@
   <dataProcessors>DataProcessor.ФамилияИнициалы</dataProcessors>
   <dataProcessors>DataProcessor.ОсталосьВремениДоКонцаЗанятия</dataProcessors>
   <dataProcessors>DataProcessor.КоличествоВыходных</dataProcessors>
+  <informationRegisters>InformationRegister.ЦенаНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
