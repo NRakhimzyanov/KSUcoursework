@@ -13,6 +13,16 @@
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.ЗаказПоставщику.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.Характеристики</group>
+      <commands>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ХарактеристикиНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВариантыЗначенийХарактеристик.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ПериодическиеДанные</group>
+      <commands>InformationRegister.ЦенаНоменклатуры.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
@@ -26,6 +36,10 @@
       <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.ЗаказПоставщику.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.ПериодическиеДанные</group>
+      <commands>InformationRegister.ЦенаНоменклатуры.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

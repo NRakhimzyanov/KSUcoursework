@@ -21,4 +21,11 @@
   <content>CommandGroup.ТорговыеОперации</content>
   <content>Report.ОтчетПоПродажам</content>
   <content>InformationRegister.ЦенаНоменклатуры</content>
+  <content>InformationRegister.ХарактеристикиНоменклатуры</content>
+  <content>ChartOfCharacteristicTypes.ВидыХарактеристик</content>
+  <content>CommandGroup.Характеристики</content>
+  <content>CommandGroup.ПериодическиеДанные</content>
+  <content>Catalog.ВариантыЗначенийХарактеристик</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>Report.ОстаткиНоменклатуры</content>
 </mdclass:Subsystem>

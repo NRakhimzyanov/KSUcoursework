@@ -36,6 +36,7 @@
   <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПриходнаяНакладная.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Document.ПриходнаяНакладная.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="777d92d3-5894-4558-a9bd-63ead56e441d">

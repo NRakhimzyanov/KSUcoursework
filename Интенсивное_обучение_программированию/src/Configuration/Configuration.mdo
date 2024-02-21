@@ -53,6 +53,8 @@
   <commandGroups>CommandGroup.ТорговыеОперации</commandGroups>
   <commandGroups>CommandGroup.УчётныеДанные</commandGroups>
   <commandGroups>CommandGroup.ПроизводственныеОперации</commandGroups>
+  <commandGroups>CommandGroup.Характеристики</commandGroups>
+  <commandGroups>CommandGroup.ПериодическиеДанные</commandGroups>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН_Организации</constants>
   <constants>Constant.НаименованиеОрганизации</constants>
@@ -61,6 +63,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ВариантыЗначенийХарактеристик</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
@@ -69,6 +72,7 @@
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
   <reports>Report.ОтчетПоПродажам</reports>
+  <reports>Report.ОстаткиНоменклатуры</reports>
   <dataProcessors>DataProcessor.УгадайЧисло</dataProcessors>
   <dataProcessors>DataProcessor.РоботШвейцар</dataProcessors>
   <dataProcessors>DataProcessor.РасчетИтоговойЦены</dataProcessors>
@@ -77,5 +81,8 @@
   <dataProcessors>DataProcessor.ОсталосьВремениДоКонцаЗанятия</dataProcessors>
   <dataProcessors>DataProcessor.КоличествоВыходных</dataProcessors>
   <informationRegisters>InformationRegister.ЦенаНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ХарактеристикиНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

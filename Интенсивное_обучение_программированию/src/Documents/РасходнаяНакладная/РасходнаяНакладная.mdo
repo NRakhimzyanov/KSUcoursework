@@ -35,6 +35,7 @@
   <defaultObjectForm>Document.РасходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РасходнаяНакладная.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Document.РасходнаяНакладная.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

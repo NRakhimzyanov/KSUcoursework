@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf3ddb63-bfaf-4922-8d9d-983cd7735314">
+  <producedTypes>
+    <objectType typeId="e7ef4b41-4cc2-4755-ae6f-6b5a9cf6582e" valueTypeId="dc4eee80-428f-4945-945f-568834d3fd04"/>
+    <refType typeId="a9a5acc0-44a2-4a5c-b24b-c22dceafbe66" valueTypeId="4f19d90d-fecc-4a7e-abde-b451c9acac61"/>
+    <selectionType typeId="fdc10e87-cc83-4467-b4a8-26182216c09c" valueTypeId="501a51f4-14ed-42f2-8acc-fcaf6f5b5fdc"/>
+    <listType typeId="5d4fb51e-7b67-4c0c-abb3-12d8750c720f" valueTypeId="218e4c1b-286c-4ccd-8de6-fea521b0161a"/>
+    <managerType typeId="a1668d9d-0141-4bf0-92ba-ae375cf19564" valueTypeId="fdf1ad80-bb56-462e-9833-b582ea4ea34e"/>
+    <containerType typeId="5a280b7b-6c9c-486c-9eb4-23da47418139" valueTypeId="048a5334-12d8-4cdb-b3e5-558d17261a5e"/>
+  </producedTypes>
+  <name>ВидыХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды характеристик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид характеристики</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды характеристик</value>
+  </listPresentation>
+  <type>
+    <types>String</types>
+    <types>Number</types>
+    <types>Date</types>
+    <types>Boolean</types>
+    <types>CatalogRef.ВариантыЗначенийХарактеристик</types>
+    <numberQualifiers>
+      <precision>32</precision>
+      <scale>5</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ВидыХарактеристик.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ВидыХарактеристик.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ВидыХарактеристик.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="1913fef7-acef-4d9d-a452-7061474d253b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="442d3f48-04ef-4460-95d0-b21342273b6e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e61e8ec2-71dc-41e0-a5ad-5665f957a6c7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

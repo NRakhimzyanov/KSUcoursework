@@ -35,6 +35,7 @@
   <defaultObjectForm>Document.ПроизводствоПродукции.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПроизводствоПродукции.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Document.ПроизводствоПродукции.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="638b4ef7-0805-42e5-9154-f87da7f4d701">

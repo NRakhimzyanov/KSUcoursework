@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d770485-7c67-43bb-951d-bf84d64d7eea">
+  <producedTypes>
+    <selectionType typeId="d1289290-912b-4ffb-bed7-eeeec6c4f64c" valueTypeId="f7b17cdf-536b-42d2-b68c-d6f0d37a50d8"/>
+    <listType typeId="535d96b1-3d62-44e9-83e0-3d7eaf187510" valueTypeId="43a6694d-e99b-40a6-9136-d3ab465252d7"/>
+    <managerType typeId="b12c766b-0279-4699-a043-1d6675aa7864" valueTypeId="c3313e58-1dbe-4fbf-abed-b2d4d685e594"/>
+    <recordSetType typeId="74e6bb48-f1c4-4023-844a-d3388ce4f75b" valueTypeId="cf3bc58f-f9fa-4913-84c8-ab541587c8ca"/>
+    <recordKeyType typeId="4de5fae6-d2d1-4b35-8b27-bc70ffd22c1a" valueTypeId="a894778a-f80e-4190-b1ad-c58da1e32781"/>
+    <recordType typeId="8a88cf41-7a66-4d28-81c4-9cf3aee3aec5" valueTypeId="e6dfdc21-30cd-45b0-9c49-ad04b7663de1"/>
+  </producedTypes>
+  <name>ОстаткиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Остатки номенклатуры</value>
+  </listPresentation>
+  <resources uuid="d8debedd-8e9a-4cc9-88e2-6972dff89588">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="151df90d-b1b2-43bb-89b0-fe3d1d6658b4">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
