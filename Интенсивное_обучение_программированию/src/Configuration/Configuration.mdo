@@ -81,9 +81,12 @@
   <dataProcessors>DataProcessor.ФамилияИнициалы</dataProcessors>
   <dataProcessors>DataProcessor.ОсталосьВремениДоКонцаЗанятия</dataProcessors>
   <dataProcessors>DataProcessor.КоличествоВыходных</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеПроизводственногоКалендаря</dataProcessors>
   <informationRegisters>InformationRegister.ЦенаНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ХарактеристикиНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Файлы</informationRegisters>
+  <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
+  <informationRegisters>InformationRegister.ЧасоваяСтавкаСотрудника</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>

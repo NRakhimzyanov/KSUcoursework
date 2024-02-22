@@ -12,6 +12,8 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.ПроисхождениеНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Enum.ПроисхождениеНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
   <enumValues uuid="07078b19-82e6-4f6f-b850-f444f0b40f1b">
     <name>Импортный</name>
     <synonym>
@@ -26,4 +28,22 @@
       <value>Отечественный</value>
     </synonym>
   </enumValues>
+  <forms uuid="bdb8849d-0a63-4e4f-a813-3d35d6da34ac">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="927d54fb-ca69-4087-bb0f-09034dac3a11">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Enum>

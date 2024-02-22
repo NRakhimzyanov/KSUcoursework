@@ -14,4 +14,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Сотрудники</content>
   <content>CommandGroup.УчетныеДанные</content>
+  <content>InformationRegister.ПроизводственныйКалендарь</content>
+  <content>DataProcessor.ЗаполнениеПроизводственногоКалендаря</content>
+  <content>InformationRegister.ЧасоваяСтавкаСотрудника</content>
 </mdclass:Subsystem>

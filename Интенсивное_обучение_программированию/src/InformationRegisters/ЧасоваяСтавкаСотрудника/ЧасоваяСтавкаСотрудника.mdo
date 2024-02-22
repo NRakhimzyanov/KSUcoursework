@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a0ebc71-f128-4ead-924a-8d9588a7149b">
+  <producedTypes>
+    <selectionType typeId="900d4442-00f1-46a4-acee-82858f13ee77" valueTypeId="f3e35ff1-9416-422a-8c60-1c18707c791b"/>
+    <listType typeId="abf25db5-b9f0-4484-bf39-bdb444128af8" valueTypeId="bb515019-36a2-4e8f-af5b-4717df8473c8"/>
+    <managerType typeId="3aba69af-30a0-4eec-aca6-64b881c4cbe8" valueTypeId="b8513be1-47ba-4f40-a2ea-9ab78b9fae44"/>
+    <recordSetType typeId="fb71af49-bfcf-4038-8d5a-adae5d6f8d21" valueTypeId="457baf7d-be8b-4662-9aa6-a419b239f73a"/>
+    <recordKeyType typeId="b40de40d-e04c-4831-85ac-39fb480bb2f2" valueTypeId="664ccc85-3fbc-4920-933c-bb7a2cac02ab"/>
+    <recordType typeId="90dca20e-63cc-41d6-bfad-8977614a16ba" valueTypeId="c1ee4984-818f-44b2-99d2-47daadb4789a"/>
+    <recordManagerType typeId="54e41513-c1f7-4bd3-ace4-01a08a1df70c" valueTypeId="f15623be-b59d-4ac3-8ca1-49dfdcee7d3e"/>
+  </producedTypes>
+  <name>ЧасоваяСтавкаСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовая ставка сотрудника</value>
+  </synonym>
+  <comment>Часовая ставка сотрудника</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЧасоваяСтавкаСотрудника.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЧасоваяСтавкаСотрудника.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Часовая ставка сотрудника</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Часовые ставки сотрудников</value>
+  </listPresentation>
+  <resources uuid="359d6036-6135-4884-84c8-6af6e63391a1">
+    <name>ЧасоваяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовая ставка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6d90fea1-483a-4c4f-a8a2-053817eef711">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5ae6c5cd-d05d-4990-9805-c12721f0327a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67fa622f-a5c7-4092-bdb5-176d30988e1b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

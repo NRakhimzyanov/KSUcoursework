@@ -14,6 +14,7 @@
     <value>Остатки номенклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ОстаткиНоменклатуры.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <listPresentation>
@@ -52,4 +53,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <forms uuid="392b00ed-9695-4a0e-b42b-8b23ee450c83">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:AccumulationRegister>

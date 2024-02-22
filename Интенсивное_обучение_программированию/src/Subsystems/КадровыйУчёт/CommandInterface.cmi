@@ -4,12 +4,11 @@
     <placementFragments>
       <group>CommandGroup.УчетныеДанные</group>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПроизводственныйКалендарь.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.ПериодическиеДанные</group>
+      <commands>InformationRegister.ЧасоваяСтавкаСотрудника.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
-  <commandsOrder>
-    <orderFragments>
-      <group>CommandGroup.УчетныеДанные</group>
-      <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
-    </orderFragments>
-  </commandsOrder>
 </cmi:CommandInterface>

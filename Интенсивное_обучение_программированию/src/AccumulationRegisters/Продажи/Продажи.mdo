@@ -15,6 +15,7 @@
   </synonym>
   <comment>Регистр накопления обороты</comment>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.Продажи.Form.ФормаСписка</defaultListForm>
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
@@ -77,4 +78,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <forms uuid="5fc3eca8-6d0a-4fca-b9f8-c49875d98359">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:AccumulationRegister>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f0c29f6-e98d-4af8-916d-4ce47ec0c4ea">
+  <producedTypes>
+    <selectionType typeId="c2190bcb-210b-43e5-b4e1-b3332a028829" valueTypeId="f3bdb586-65a2-4c20-a981-92610850a699"/>
+    <listType typeId="9d8f15a5-0925-4741-aadc-6d78bd9ce5dc" valueTypeId="454b47e0-1001-49bd-a5f3-e13b6c2aff74"/>
+    <managerType typeId="62f83120-d321-49e7-90a9-29f04621775e" valueTypeId="dd737d29-924c-4d64-840a-4d3e7dca0885"/>
+    <recordSetType typeId="9566fa92-df07-4625-9342-fe487f744f6b" valueTypeId="7efea20f-841f-491e-9986-4a01c8610ee1"/>
+    <recordKeyType typeId="26887553-bff3-4145-9b96-9698fd36ed9e" valueTypeId="6ef0bd5e-96df-4d10-accb-f69559c479a4"/>
+    <recordType typeId="ad653e99-ae89-444c-adc6-7bdff209a4b9" valueTypeId="4bade924-6143-4699-b164-0d29449f0589"/>
+    <recordManagerType typeId="69316b49-e88f-446e-9d4e-665e5a416a7f" valueTypeId="1293672c-c10a-456b-a61b-77bfbcddd182"/>
+  </producedTypes>
+  <name>ПроизводственныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственный календарь</value>
+  </synonym>
+  <comment>Производственный календарь</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПроизводственныйКалендарь.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПроизводственныйКалендарь.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>День</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Производственный календарь</value>
+  </listPresentation>
+  <resources uuid="a9b68696-8023-4cbe-9872-02a07bbc6001">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>24</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fd7d6832-dfff-413b-98c5-699d4abd1d19">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="489ccc69-6c71-43c7-b88a-0167914a6282">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d31e2064-c76e-41cd-a87d-b51d8b7b4658">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
