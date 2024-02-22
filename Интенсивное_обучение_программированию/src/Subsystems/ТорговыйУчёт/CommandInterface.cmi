@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsPlacement>
     <placementFragments>
-      <group>CommandGroup.УчётныеДанные</group>
+      <group>CommandGroup.УчетныеДанные</group>
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
@@ -26,7 +26,7 @@
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>CommandGroup.УчётныеДанные</group>
+      <group>CommandGroup.УчетныеДанные</group>
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>

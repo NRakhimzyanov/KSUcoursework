@@ -49,9 +49,10 @@
   <commonModules>CommonModule.РаботаСКонстантамиВызовСервера</commonModules>
   <commonModules>CommonModule.УКЗ_Клиент</commonModules>
   <commonModules>CommonModule.УКЗ_ВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСФайламиКлиент</commonModules>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <commandGroups>CommandGroup.ТорговыеОперации</commandGroups>
-  <commandGroups>CommandGroup.УчётныеДанные</commandGroups>
+  <commandGroups>CommandGroup.УчетныеДанные</commandGroups>
   <commandGroups>CommandGroup.ПроизводственныеОперации</commandGroups>
   <commandGroups>CommandGroup.Характеристики</commandGroups>
   <commandGroups>CommandGroup.ПериодическиеДанные</commandGroups>
@@ -82,6 +83,7 @@
   <dataProcessors>DataProcessor.КоличествоВыходных</dataProcessors>
   <informationRegisters>InformationRegister.ЦенаНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ХарактеристикиНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.Файлы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>

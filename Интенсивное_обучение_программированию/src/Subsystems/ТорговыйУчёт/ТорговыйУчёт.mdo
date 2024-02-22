@@ -17,7 +17,7 @@
   <content>Enum.ВидНоменклатуры</content>
   <content>Enum.ПроисхождениеНоменклатуры</content>
   <content>AccumulationRegister.Продажи</content>
-  <content>CommandGroup.УчётныеДанные</content>
+  <content>CommandGroup.УчетныеДанные</content>
   <content>CommandGroup.ТорговыеОперации</content>
   <content>Report.ОтчетПоПродажам</content>
   <content>InformationRegister.ЦенаНоменклатуры</content>

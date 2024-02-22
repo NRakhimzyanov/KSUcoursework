@@ -13,5 +13,5 @@
   </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Сотрудники</content>
-  <content>CommandGroup.УчётныеДанные</content>
+  <content>CommandGroup.УчетныеДанные</content>
 </mdclass:Subsystem>

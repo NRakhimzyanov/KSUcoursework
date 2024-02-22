@@ -11,4 +11,5 @@
   <content>Constant.ГенеральныйДиректор</content>
   <content>Constant.ИНН_Организации</content>
   <content>Constant.НаименованиеОрганизации</content>
+  <content>InformationRegister.Файлы</content>
 </mdclass:Subsystem>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa5ed67e-37e9-4060-aede-78da32446641">
-  <name>УчётныеДанные</name>
+  <name>УчетныеДанные</name>
   <synonym>
     <key>ru</key>
-    <value>Учётные данные</value>
+    <value>Учетные данные</value>
   </synonym>
   <representation>Auto</representation>
 </mdclass:CommandGroup>
