@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Расходная накладная</value>
   </synonym>
-  <comment>Расходная накладная покупателю</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.РасходнаяНакладная.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -75,6 +74,38 @@
       <name>Отбор.Владелец</name>
       <field>Document.РасходнаяНакладная.Attribute.Клиент</field>
     </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c79e74bc-0fbb-49f1-afe4-b0c888b69adf">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27314d14-4a18-4bab-ac3d-43d28d6b518e">
+    <name>ИтоговаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговая сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

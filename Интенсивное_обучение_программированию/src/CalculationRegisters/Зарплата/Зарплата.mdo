@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eefd79f-2c65-412b-8218-230ef0e84836">
+  <producedTypes>
+    <selectionType typeId="cf1cfd55-3049-4250-b6bf-b549ea41191a" valueTypeId="e480b569-4cca-431d-a72a-693a2dc6c816"/>
+    <listType typeId="b71c6d1f-d40b-4b9b-9813-7730fc5ac7af" valueTypeId="46a2f022-6611-4d2d-b8bc-d24ae65a5194"/>
+    <managerType typeId="7e0fd68e-d9e5-40e4-900a-b2c21982f82e" valueTypeId="e1abf5aa-25e6-40a8-907b-dd2d70613ebf"/>
+    <recordSetType typeId="72dac15a-84d5-4e74-9b19-6ec1117d76f8" valueTypeId="2734e187-5c7f-4fbf-ac61-925c220aedb7"/>
+    <recordKeyType typeId="d3ae41b8-5a1e-4e38-a7bd-768ad3b61460" valueTypeId="374ad059-d168-4e08-acff-9139b3bfdfb8"/>
+    <recordType typeId="f7cc7730-077b-4123-a128-3cc84ed1a212" valueTypeId="6b8ea0d6-8661-4497-b1e9-3dfab224540c"/>
+    <recalcsType typeId="5927f667-6ecc-4422-aa0d-4afc329ae83b" valueTypeId="71b28a65-32bb-4d94-bd27-53bc5186ae97"/>
+  </producedTypes>
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <comment>Зарплата</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>CalculationRegister.Зарплата.Form.ФормаСписка</defaultListForm>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <schedule>InformationRegister.ПроизводственныйКалендарь</schedule>
+  <scheduleValue>InformationRegister.ПроизводственныйКалендарь.Resource.КоличествоЧасов</scheduleValue>
+  <scheduleDate>InformationRegister.ПроизводственныйКалендарь.Dimension.День</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВидыРасчета</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </listPresentation>
+  <resources uuid="691e2d00-a8af-4510-9332-a883145608ba">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="8af8242b-fa2d-4010-a188-14aa0e235557">
+    <name>ЧасоваяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовая ставка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="253432c1-3df5-48d3-ba4d-c8c666b54724">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <forms uuid="65a86d99-7337-457a-b4a7-8d67ca8a3b2a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:CalculationRegister>

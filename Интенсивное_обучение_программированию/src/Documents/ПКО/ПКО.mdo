@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c02f4eb4-d05a-405d-8fb9-ae69d28b635f">
+  <producedTypes>
+    <objectType typeId="1392f486-5e06-413a-9d2b-bd66c797d355" valueTypeId="a5df2346-8233-4ad6-8093-5c192c68a829"/>
+    <refType typeId="4a25f916-7196-4783-99b1-83e970c25558" valueTypeId="7fdc6f64-b435-4fd1-b1b0-3ffd0b3db9d8"/>
+    <selectionType typeId="bd3b61e6-47a3-4283-ada4-147a339d660e" valueTypeId="a485c0d3-856d-42fd-8d26-49b900210c9f"/>
+    <listType typeId="711642cb-e66a-4741-9a36-555896f9d2bd" valueTypeId="1770225f-8574-467e-8b4f-5e4c5485398a"/>
+    <managerType typeId="36de0c63-e650-48cf-a438-9f6eb9b5e252" valueTypeId="d32d5e57-973a-4dd3-9286-81f162c54b9f"/>
+  </producedTypes>
+  <name>ПКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приходно-кассовый ордер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПКО.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.СчетНаОплату</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приходно-кассовый ордер</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приходно-кассовые ордера</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПКО.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПКО.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ПКО.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccountingRegister.БухгалтерскиеПроводки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="762e9d67-8ded-42c2-b4c7-9e87be59e607">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ВидКонтрагента</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидКонтрагента.EnumValue.Поставщик</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34e3a09c-b88c-4791-8d90-4e5c945b5a06">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e836b4f-c6a9-4352-8cc2-249faba0f0d9">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46da00d1-084c-4d42-adee-030638ae6727">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c1497d57-ee49-48fa-b929-ef41003219b1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8cad4dc3-ccd5-4d4f-a11d-2834788733d6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdf6b985-9228-4e20-aeec-efb19ea9bb04">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

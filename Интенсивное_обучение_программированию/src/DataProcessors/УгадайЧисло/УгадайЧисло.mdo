@@ -41,8 +41,12 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>1000</value>
+    </maxValue>
   </attributes>
   <forms uuid="2b78b4fc-edcf-4522-aa73-08e279933695">
     <name>УгадайЧисло</name>

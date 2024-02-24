@@ -19,6 +19,14 @@
   <defaultRecordForm>InformationRegister.Файлы.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Файлы.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Файл</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Файлы</value>
+  </listPresentation>
   <resources uuid="72f69334-d442-494b-9bbd-8f2f260b379d">
     <name>ДанныеФайла</name>
     <synonym>

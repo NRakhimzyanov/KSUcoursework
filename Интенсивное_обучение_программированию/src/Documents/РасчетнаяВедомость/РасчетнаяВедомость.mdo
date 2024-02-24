@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae813fd8-4fa3-440e-965e-b7474d1d4ea3">
+  <producedTypes>
+    <objectType typeId="77aad171-2e45-4554-bcdf-e039a5dfa9d3" valueTypeId="d1888ca2-03ae-416c-84c6-15c304937470"/>
+    <refType typeId="f69cb852-28df-44d9-bec1-279c9fb6241c" valueTypeId="10256a23-3113-4742-b66a-aca14e3b7c2f"/>
+    <selectionType typeId="39c87736-3aa0-4fe8-bdbc-cddc7a4f73eb" valueTypeId="8ca89c50-1606-44bf-934a-92bef0ed61f3"/>
+    <listType typeId="f2127bc6-f687-4109-a6d2-a02c83ccbff4" valueTypeId="139b1453-1a82-40bb-9b43-aaf42ab1afa5"/>
+    <managerType typeId="626f3a8f-3756-4eec-95a6-df8730f469fb" valueTypeId="0dcc3190-b3ce-4897-856c-98fc0c2a35b5"/>
+  </producedTypes>
+  <name>РасчетнаяВедомость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетная ведомость</value>
+  </synonym>
+  <comment>Расчетная ведомость</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасчетнаяВедомость.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Расчетная ведомость</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Расчетные ведомости</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РасчетнаяВедомость.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РасчетнаяВедомость.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.РасчетнаяВедомость.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>CalculationRegister.Зарплата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b3f4fa96-1f1e-48e7-9473-8b7a24267fa0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="26b8074e-ff90-4b7b-8ae4-372627fe8037">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bc6a4bcc-f329-4946-8dc5-d256dbd46f89">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6d43dffd-999f-499a-a365-7e8fb7f9c224">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="40ad706e-082d-4bd3-87a2-3f9f8397da16">
+    <producedTypes>
+      <objectType typeId="77a7ce6f-52d7-4a49-91e5-16f8e00b5787" valueTypeId="afbbf402-75bb-4bae-8bd1-59cb623ba803"/>
+      <rowType typeId="4fd1b867-92d2-401c-8acd-40c1c5060036" valueTypeId="fd4e7b34-1063-47ce-9ada-6a8c1633dbda"/>
+    </producedTypes>
+    <name>СписокСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список сотрудников</value>
+    </synonym>
+    <comment>Список сотрудников</comment>
+    <attributes uuid="42a4d7bc-ba5e-40d9-b97c-09e57222664b">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="57840fe3-186c-4b1c-9b7d-f024eca4bd5a">
+      <name>ЧасоваяСтавка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часовая ставка</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежныеСредства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -38,11 +38,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.КадровыйУчёт</subsystems>
+  <subsystems>Subsystem.КадровыйУчет</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
-  <subsystems>Subsystem.ПроизводственныйУчёт</subsystems>
-  <subsystems>Subsystem.ТорговыйУчёт</subsystems>
+  <subsystems>Subsystem.ПроизводственныйУчет</subsystems>
+  <subsystems>Subsystem.ТорговыйУчет</subsystems>
   <subsystems>Subsystem.Алгоритмы</subsystems>
+  <subsystems>Subsystem.БухгалтерскиййУчет</subsystems>
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <roles>Role.Администратор</roles>
   <roles>Role.РаботаСДанными</roles>
@@ -56,6 +57,8 @@
   <commandGroups>CommandGroup.ПроизводственныеОперации</commandGroups>
   <commandGroups>CommandGroup.Характеристики</commandGroups>
   <commandGroups>CommandGroup.ПериодическиеДанные</commandGroups>
+  <commandGroups>CommandGroup.ЗарплатныеОперации</commandGroups>
+  <commandGroups>CommandGroup.ФинансовыеОперации</commandGroups>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН_Организации</constants>
   <constants>Constant.НаименованиеОрганизации</constants>
@@ -69,11 +72,17 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.ПроизводствоПродукции</documents>
+  <documents>Document.ФиксацияПрогула</documents>
+  <documents>Document.РасчетнаяВедомость</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <documents>Document.ПКО</documents>
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
   <reports>Report.ОтчетПоПродажам</reports>
   <reports>Report.ОстаткиНоменклатуры</reports>
+  <reports>Report.ЗаработнаяПлата</reports>
+  <reports>Report.ОСВ</reports>
   <dataProcessors>DataProcessor.УгадайЧисло</dataProcessors>
   <dataProcessors>DataProcessor.РоботШвейцар</dataProcessors>
   <dataProcessors>DataProcessor.РасчетИтоговойЦены</dataProcessors>
@@ -90,4 +99,9 @@
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.ПланыСчетовБухгалтерии</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.БухгалтерскиеПроводки</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВидыРасчета</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Зарплата</calculationRegisters>
 </mdclass:Configuration>

@@ -123,8 +123,6 @@
 							<dcsset:field>Остаток</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
-					<dcsset:conditionalAppearance>
-					</dcsset:conditionalAppearance>
 					<dcsset:outputParameters>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>МакетОформления</dcscor:parameter>

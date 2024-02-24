@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1afa3129-27d5-4982-871b-bf82d874af77">
+  <producedTypes>
+    <objectType typeId="28aaf53a-1d54-4695-987c-99d466361b5b" valueTypeId="8c442190-59ca-489e-b8fa-5532c9852f4f"/>
+    <refType typeId="f30978e5-0203-404b-bee1-8eae12f83f38" valueTypeId="9d91c780-85ac-47a0-9b89-274bc299c63d"/>
+    <selectionType typeId="fbae0ea9-4e30-40e0-a125-fc6db2e54016" valueTypeId="7c6393f1-f2f7-496d-86a7-2e95ee3bac95"/>
+    <listType typeId="9dcf98e5-f569-4354-b602-d44f65b77095" valueTypeId="fe23355c-40d7-46c4-88a2-4ba99116ce11"/>
+    <managerType typeId="ca6438ba-f41d-4282-b961-16854ed351ef" valueTypeId="71385037-ddcf-40e6-96ee-272392cda12e"/>
+    <displacingCalculationTypesType typeId="65cf1b49-318b-469f-8c7e-2d56a24eb793" valueTypeId="d7601a1c-34bf-4b9d-b5c4-175c569c45d6"/>
+    <displacingCalculationTypesRowType typeId="0cbf9a94-d996-494f-b040-c5c292d01153" valueTypeId="8d8d59b6-99e0-4f0a-bf4a-f47c1b95b098"/>
+    <baseCalculationTypesType typeId="ce12540c-ed9c-4315-ad58-6bf200746642" valueTypeId="6a32b08d-7806-4ff8-81d6-ad1c91a1750f"/>
+    <baseCalculationTypesRowType typeId="eb9e22da-427e-40bf-a4bf-c0d03236c0db" valueTypeId="50436d3a-0ac4-4f3d-a50c-05f5d7ebb235"/>
+    <leadingCalculationTypesType typeId="042f89de-479a-4ad2-a63f-355c6857a334" valueTypeId="2a90a9ca-e1ff-4b36-a523-1ccd3654f36c"/>
+    <leadingCalculationTypesRowType typeId="77711d31-80d2-456a-b73f-0a74e8bb4304" valueTypeId="762e9436-de2e-405a-8ef4-5692c2f33920"/>
+  </producedTypes>
+  <name>ВидыРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчета</value>
+  </synonym>
+  <comment>Виды расчета зарплаты</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВидыРасчета.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВидыРасчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид расчета</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды расчета</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="6cec3ab1-294e-4156-bd04-ef2034708c26">
+      <name>Прогул</name>
+      <description>Прогул</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
+    <items id="61536aa9-1097-44ff-a7fe-02d59025ed38">
+      <name>Работа</name>
+      <description>Работа</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ВидыРасчета.Прогул</displaced>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

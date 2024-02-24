@@ -12,8 +12,6 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <defaultListForm>Enum.ВидНоменклатуры.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Enum.ВидНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
   <enumValues uuid="158b6cb7-4ae7-43f6-96d1-e017f00aef66">
     <name>Материал</name>
     <synonym>
@@ -42,22 +40,4 @@
       <value>Товар</value>
     </synonym>
   </enumValues>
-  <forms uuid="91bb9a9b-f314-44b5-b39c-a5aea5a6e0e7">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="69692843-abd9-4365-9090-e1d8c1be23a4">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Enum>

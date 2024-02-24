@@ -10,7 +10,17 @@
     <value>Остатки номенклатуры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстаткиНоменклатуры.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОстаткиНоменклатуры.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="4b397731-b2f8-4ca5-9cec-ea19d517113d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="88ef817f-d376-4fbf-9f98-e3623270a4b8">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

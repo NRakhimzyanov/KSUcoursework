@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de60811d-e606-4215-94a6-021e4676e6e2">
+  <producedTypes>
+    <objectType typeId="ad829fdc-0bc6-4e7c-8f78-e1ebcfdda059" valueTypeId="9bed7fae-6b8d-40e4-9213-993151a33077"/>
+    <refType typeId="672a5dbc-b46e-437d-8eb0-e539d7875d19" valueTypeId="f471717a-d97b-415f-afcf-4dca15120a3a"/>
+    <selectionType typeId="2eb3515c-7697-40ad-9b5f-2ee8f1d51d74" valueTypeId="817bfce4-2a17-4aec-9b92-955561b46883"/>
+    <listType typeId="50a03bbe-f15e-488e-b5f2-4d76b5b129a9" valueTypeId="5e9cd486-2f88-4630-9826-c670c884b6a5"/>
+    <managerType typeId="62bb4ed1-1cf7-4bd8-a805-850be38bbecf" valueTypeId="2e538049-8ef8-4ad5-8b7b-5c1ae9f35bba"/>
+    <containerType typeId="071dabb0-8a11-45c6-9884-33a1c34a9b12" valueTypeId="88ef567c-749d-491a-b63f-52a596377bb9"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид субконто</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </listPresentation>
+  <type>
+    <types>String</types>
+    <types>CatalogRef.Договоры</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Сотрудники</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="fea10f4a-cc82-416f-b729-2582321f6825">
+      <name>Контрагент</name>
+      <description>Контрагент</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

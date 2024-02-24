@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca04b472-4607-46a6-bd2e-068e427cefa3">
+  <producedTypes>
+    <selectionType typeId="3fdd651a-d11a-4f97-9671-e7cf8dbe4299" valueTypeId="f5846232-8e63-46ee-a268-36f8c7ca9604"/>
+    <listType typeId="7074eead-2df6-452c-8cef-c6c96f06a303" valueTypeId="514a23fa-a4e6-48ee-b8a4-f0a99e70f921"/>
+    <managerType typeId="ef0c8eb9-be10-49e7-a60f-c86f8eb2e2ee" valueTypeId="11e54169-0d72-4e81-9079-9bf4f35ddd7a"/>
+    <recordSetType typeId="54db63e8-07ac-4ce0-b162-dfde13568609" valueTypeId="09ec59fc-337d-46fb-9e7b-25bd9280f835"/>
+    <recordKeyType typeId="6ee0d111-36fa-4950-b0c5-486c6c2d3f30" valueTypeId="a2b8771a-f0ba-4c15-9b86-183112082a9c"/>
+    <recordType typeId="a06b80e5-ca0d-4cf8-a538-f3cad515fe12" valueTypeId="fa1097d2-d78f-49ed-8754-f088e8ef58c7"/>
+    <extDimensionsType typeId="f1650ced-ffea-4c0c-b0d7-a4ae5b6213f4" valueTypeId="8e80a6e8-8e14-4044-b0a5-374404b6101f"/>
+  </producedTypes>
+  <name>БухгалтерскиеПроводки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерские проводки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.ПланыСчетовБухгалтерии</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <defaultListForm>AccountingRegister.БухгалтерскиеПроводки.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Бухгалтерские проводки</value>
+  </listPresentation>
+  <resources uuid="aea07d92-cc4a-4aa9-8f86-3904b86f5e76">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <forms uuid="dfc4e5eb-fd73-4f5b-8a99-a5afb2af0635">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccountingRegister>

@@ -12,8 +12,6 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <defaultListForm>Enum.ВидКонтрагента.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Enum.ВидКонтрагента.Form.ФормаВыбора</defaultChoiceForm>
   <listPresentation>
     <key>ru</key>
     <value>Виды контрагентов</value>
@@ -32,22 +30,4 @@
       <value>Клиент</value>
     </synonym>
   </enumValues>
-  <forms uuid="baf8730a-f958-4e17-8d3c-af44327ed4e9">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="3f33c947-84d2-46c6-9d64-173aa3b7a976">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Enum>

@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Заказ поставщику</value>
   </synonym>
-  <comment>Документ заказа номенклатуры</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ЗаказПоставщику.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -73,6 +72,38 @@
       <name>Отбор.Владелец</name>
       <field>Document.ЗаказПоставщику.Attribute.Поставщик</field>
     </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d395a3e7-9309-41f9-bf21-7b44daf137df">
+    <name>ИтоговаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговая сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f84498cf-9d6d-4349-a54a-077b60477087">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
