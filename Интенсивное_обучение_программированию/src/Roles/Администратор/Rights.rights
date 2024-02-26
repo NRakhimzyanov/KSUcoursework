@@ -37,40 +37,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ОсталосьВремениДоКонцаЗанятия.Attribute.ДатаВремяОкончания</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПриходнаяНакладная.TabularSection.СписокМатериалов.Attribute.Материал</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РасчетИтоговойЦены.Attribute.Наценка</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.УгадайЧисло.Attribute.Вариант</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -104,17 +71,6 @@
 	</object>
 	<object>
 		<name>Document.РасходнаяНакладная.TabularSection.СписокУслуг</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РасчетИтоговойЦены.Attribute.СебестоимостьТовара</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -214,17 +170,6 @@
 	</object>
 	<object>
 		<name>Document.ПриходнаяНакладная.TabularSection.СписокРасходников</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.СколькоВамНедель.Attribute.КоличествоНедель</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -401,28 +346,6 @@
 	</object>
 	<object>
 		<name>Catalog.Сотрудники.TabularSection.ОбразованиеСотрудника.Attribute.Специальность</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ФамилияИнициалы.Attribute.ФИО</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РасчетИтоговойЦены.Attribute.СтавкаНДС</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -664,17 +587,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ФамилияИнициалы.Attribute.ФамилияИнициалы</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПриходнаяНакладная.Attribute.Основание</name>
 		<right>
 			<name>View</name>
@@ -720,17 +632,6 @@
 	</object>
 	<object>
 		<name>Catalog.Сотрудники.Attribute.ДатаРождения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РасчетИтоговойЦены.Attribute.ИтоговаяЦена</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -906,17 +807,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.СколькоВамНедель.Attribute.ДатаРождения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.РасходнаяНакладная.TabularSection.СписокУслуг.Attribute.Услуга</name>
 		<right>
 			<name>View</name>
@@ -993,28 +883,100 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>UpdateDataBaseConfiguration</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ExclusiveMode</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ActiveUsers</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EventLog</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ThinClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>WebClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MobileClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ThickClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ExternalConnection</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Automation</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TechnicalSpecialistMode</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>CollaborationSystemInfoBaseRegistration</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>MainWindowModeNormal</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>MainWindowModeWorkplace</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>MainWindowModeKiosk</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ExclusiveModeTerminationAtSessionStart</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ConfigurationExtensionsAdministration</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveOpenExtDataProcessors</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveOpenExtReports</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Output</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1063,28 +1025,6 @@
 	</object>
 	<object>
 		<name>Document.ПроизводствоПродукции.TabularSection.СписокТоваров.Attribute.Количество</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РоботШвейцар.Attribute.КоличествоКлиентов</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.УгадайЧисло.Attribute.ЗагаданноеЧисло</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

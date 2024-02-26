@@ -48,8 +48,6 @@
   <roles>Role.Администратор</roles>
   <roles>Role.РаботаСДанными</roles>
   <commonModules>CommonModule.РаботаСКонстантамиВызовСервера</commonModules>
-  <commonModules>CommonModule.УКЗ_Клиент</commonModules>
-  <commonModules>CommonModule.УКЗ_ВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСФайламиКлиент</commonModules>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <commandGroups>CommandGroup.ТорговыеОперации</commandGroups>
@@ -83,13 +81,6 @@
   <reports>Report.ОстаткиНоменклатуры</reports>
   <reports>Report.ЗаработнаяПлата</reports>
   <reports>Report.ОСВ</reports>
-  <dataProcessors>DataProcessor.УгадайЧисло</dataProcessors>
-  <dataProcessors>DataProcessor.РоботШвейцар</dataProcessors>
-  <dataProcessors>DataProcessor.РасчетИтоговойЦены</dataProcessors>
-  <dataProcessors>DataProcessor.СколькоВамНедель</dataProcessors>
-  <dataProcessors>DataProcessor.ФамилияИнициалы</dataProcessors>
-  <dataProcessors>DataProcessor.ОсталосьВремениДоКонцаЗанятия</dataProcessors>
-  <dataProcessors>DataProcessor.КоличествоВыходных</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеПроизводственногоКалендаря</dataProcessors>
   <informationRegisters>InformationRegister.ЦенаНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ХарактеристикиНоменклатуры</informationRegisters>

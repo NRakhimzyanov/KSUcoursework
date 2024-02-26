@@ -7,11 +7,4 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>DataProcessor.УгадайЧисло</content>
-  <content>DataProcessor.РоботШвейцар</content>
-  <content>DataProcessor.РасчетИтоговойЦены</content>
-  <content>DataProcessor.СколькоВамНедель</content>
-  <content>DataProcessor.ФамилияИнициалы</content>
-  <content>DataProcessor.ОсталосьВремениДоКонцаЗанятия</content>
-  <content>DataProcessor.КоличествоВыходных</content>
 </mdclass:Subsystem>
