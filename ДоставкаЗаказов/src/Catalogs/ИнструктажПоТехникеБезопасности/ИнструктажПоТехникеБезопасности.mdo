@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1da66757-4461-4038-a600-26701f0ae5bd">
+  <producedTypes>
+    <objectType typeId="ba5c9bc2-fc65-41fe-8d29-36a8b8e41fac" valueTypeId="e45e284f-2a4f-442e-b9fb-2a964cf4e8d3"/>
+    <refType typeId="f0a99635-e5f1-4a7b-be38-0f1b034fc662" valueTypeId="0d4e1f54-e83f-4d78-b8d3-4a883c911b7c"/>
+    <selectionType typeId="9abda431-6e40-49b6-8bb5-13896aae4f6d" valueTypeId="3d36838d-534f-4fde-891d-f113cfa95281"/>
+    <listType typeId="3ce299fb-be92-473d-a16f-d518e085ca26" valueTypeId="14b7f5ac-12fb-47f8-aa2c-a547584c1389"/>
+    <managerType typeId="2dc9dc8e-88f9-42b8-b6be-11005146fd56" valueTypeId="e65b5788-9d84-4a9e-a6be-2f7e0ca7c857"/>
+  </producedTypes>
+  <name>ИнструктажПоТехникеБезопасности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструктаж по технике безопасности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Инструктаж по технике безопасности</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Инструктажи по технике безопасности</value>
+  </listPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИнструктажПоТехникеБезопасности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИнструктажПоТехникеБезопасности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ИнструктажПоТехникеБезопасности.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="6fea092e-856e-4724-8f7f-434b31431781">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="995d6ca0-9b04-4609-95dd-46f378f9580d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d97caa7-0586-4c68-aed6-badc5270ad16">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

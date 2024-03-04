@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5551141-1ba3-4198-89b7-3125a84ff75e">
+  <producedTypes>
+    <objectType typeId="fc6e0688-1b32-447c-a3f3-6626a51a8a9d" valueTypeId="caa65067-5146-4920-b32e-7c9fc72a7693"/>
+    <refType typeId="774c7d89-2730-4ef0-b98b-791df2d46026" valueTypeId="abc53d55-9401-4255-8051-b5a5cf842e2f"/>
+    <selectionType typeId="c56fb92e-9ab4-4781-a961-92da7e327324" valueTypeId="adb838bd-0019-4310-ab34-b4fe5477a00c"/>
+    <listType typeId="f452eac0-7ede-4d6b-8fe6-1c926720772c" valueTypeId="cc01aea0-cb9a-4c79-bf9d-210f67e864c3"/>
+    <managerType typeId="05791c97-9b6b-41c8-8f2e-5f9de863f154" valueTypeId="b408c5e5-fee5-4a13-9613-42549bf852c4"/>
+  </producedTypes>
+  <name>ТранспортныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Транспортное средство</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТранспортныеСредства.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТранспортныеСредства.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТранспортныеСредства.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="40bd3284-5509-486f-99ae-bf63f2a24ea9">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d837f9ca-d4c4-446e-96e6-919efecf747a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c8c758f-e0ef-4785-887f-e469aa7ab5e4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="014e918f-510c-43e9-97af-29cb4d439429">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -42,8 +42,8 @@
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.ПроизводственныйУчет</subsystems>
   <subsystems>Subsystem.ТорговыйУчет</subsystems>
-  <subsystems>Subsystem.Алгоритмы</subsystems>
   <subsystems>Subsystem.БухгалтерскиййУчет</subsystems>
+  <subsystems>Subsystem.ТранспортныйОтдел</subsystems>
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <roles>Role.Администратор</roles>
   <roles>Role.РаботаСДанными</roles>
@@ -57,6 +57,7 @@
   <commandGroups>CommandGroup.ПериодическиеДанные</commandGroups>
   <commandGroups>CommandGroup.ЗарплатныеОперации</commandGroups>
   <commandGroups>CommandGroup.ФинансовыеОперации</commandGroups>
+  <commandGroups>CommandGroup.ТранспортныеСредства</commandGroups>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН_Организации</constants>
   <constants>Constant.НаименованиеОрганизации</constants>
@@ -66,6 +67,8 @@
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ВариантыЗначенийХарактеристик</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
@@ -77,6 +80,7 @@
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
+  <enums>Enum.КатегорииПерсонала</enums>
   <reports>Report.ОтчетПоПродажам</reports>
   <reports>Report.ОстаткиНоменклатуры</reports>
   <reports>Report.ЗаработнаяПлата</reports>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b7f6b43-938e-4f56-8fa7-291cccdc6fb9">
+  <producedTypes>
+    <refType typeId="253e77b1-f83a-478f-8b95-82602a7c937d" valueTypeId="c537e075-ed44-496d-b192-bfd7b477c16d"/>
+    <listType typeId="4fde81ac-c71d-4960-9a7c-ef8c41d2c896" valueTypeId="9a03de67-b59a-4f90-a578-685f8b277f49"/>
+    <managerType typeId="2b2b8ec0-475f-45dd-bf60-9e944a9ab5fe" valueTypeId="f2a078d4-eef5-4d4b-8236-54bf53a3fec2"/>
+  </producedTypes>
+  <name>КатегорииПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории персонала</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66685dc2-cfe9-4654-9fc9-7469c1da5053">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd8119ee-99f4-476c-8bae-197cc4e1aedf">
+    <name>Специалист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специалист</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a187ed9b-924f-49ba-b0c7-60e789bacb31">
+    <name>Служащий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служащий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ea0f1e0-b563-4c1f-947c-d2b41a86b658">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

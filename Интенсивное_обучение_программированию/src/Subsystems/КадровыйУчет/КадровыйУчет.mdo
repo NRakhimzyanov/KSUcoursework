@@ -23,4 +23,6 @@
   <content>CommandGroup.ЗарплатныеОперации</content>
   <content>Document.РасчетнаяВедомость</content>
   <content>Report.ЗаработнаяПлата</content>
+  <content>Catalog.Должности</content>
+  <content>Enum.КатегорииПерсонала</content>
 </mdclass:Subsystem>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89614300-1f0a-47a0-996c-b7b1a4ed16b6">
+  <producedTypes>
+    <objectType typeId="5aac3c42-e112-4c9e-bfc3-1a8c9e793665" valueTypeId="a5cff4a7-594b-407b-806c-9ab319f5c05a"/>
+    <refType typeId="16196b19-74fd-47ad-8e07-87dd509e5804" valueTypeId="35204aee-08d8-4278-bf32-2e5bc44bbef3"/>
+    <selectionType typeId="0430605d-1ba0-45ce-99ce-4e38394f8897" valueTypeId="b1b81b33-1739-470d-9dd6-970ba3b850f0"/>
+    <listType typeId="0e7e8bc1-f00c-4c7e-81b6-f67a973398cd" valueTypeId="c945153e-2312-4b33-9d87-68d1462ffa47"/>
+    <managerType typeId="a6c84694-4a78-4f4e-961c-2ef245c81321" valueTypeId="c4e9a736-b38a-4dba-936a-d0166d5a3426"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="67c491b5-aff1-4740-b0a5-31755bfa163f">
+      <name>Бухгалтер</name>
+      <description>Бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="72c6068a-be3c-4c3c-a30e-297959d38d98">
+      <name>ГлавныйБухгалтер</name>
+      <description>Главный бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f4218fe2-365a-4db8-9c59-b360e4310820">
+      <name>Кассир</name>
+      <description>Кассир</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Должности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Должности.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="21308b46-054d-42f6-855f-3a44087f6289">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1a26656-d559-48d3-8781-54dc23ecd741">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41b995c1-20ab-4738-9ce8-57d7f035d3e3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

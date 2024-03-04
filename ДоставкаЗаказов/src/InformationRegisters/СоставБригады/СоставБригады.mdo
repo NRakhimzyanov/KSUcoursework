@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c47b902-f605-49f9-bf3f-78bb80393a06">
+  <producedTypes>
+    <selectionType typeId="25ce53b4-0d71-44fd-8cbc-d847d5a1b4e8" valueTypeId="3cbdec0f-999a-460c-8942-d9634e6f401f"/>
+    <listType typeId="5346f85f-041f-48b3-b901-7183fc093c22" valueTypeId="8ca417ab-fb77-42cc-ae76-1d594ceda8df"/>
+    <managerType typeId="2d2b8b13-f8c2-433b-9cd1-83832c1fe59f" valueTypeId="d2b8b47e-99b8-41b2-bd4f-7477c98ede09"/>
+    <recordSetType typeId="6f2f7b01-fbb7-4d54-8340-bb9bc5bd2a32" valueTypeId="fe30e222-07b2-401d-8552-af54eeb3e947"/>
+    <recordKeyType typeId="ed6d2e91-bd1b-4e34-bdc0-7a22558fe4ff" valueTypeId="1da8ac04-d097-4744-8bf1-56eebaa8b316"/>
+    <recordType typeId="95a540e8-77f4-4644-89cf-306a6e00e7d1" valueTypeId="417fda8b-f3c9-4944-8ea2-488c04c674f0"/>
+    <recordManagerType typeId="40ebd536-4887-46df-8e3a-33075d46c8a4" valueTypeId="0b123895-2760-4028-86ff-c0982b117d4d"/>
+  </producedTypes>
+  <name>СоставБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав бригады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состав бригады</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состав бригад</value>
+  </listPresentation>
+  <resources uuid="9dea2dce-f754-4fbf-837a-4c50b70c4405">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1535e73c-bf22-48f3-af45-9042e488001b">
+    <name>ГрузчикПервый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузчик первый</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Грузчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5e1a35fc-3c5d-4510-b199-2519258d4c13">
+    <name>ГрузчикВторой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузчик второй</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Грузчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5234add1-3cfc-44c9-803b-074f318bf32b">
+    <name>НачальныйПробег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальный пробег</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="808c818b-05c6-49a0-9997-26b453e362d9">
+    <name>Транспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

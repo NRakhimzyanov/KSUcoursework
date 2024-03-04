@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16f392ff-01f9-4957-9596-1301151d4a86">
+  <producedTypes>
+    <objectType typeId="15cdd5c5-43a4-4d0b-b892-623c4e9ecd60" valueTypeId="1ae1f20d-849e-42b3-81a8-c1c4a03bdc98"/>
+    <refType typeId="d1838758-7c22-4086-a477-74852193391d" valueTypeId="3d503c0c-0bb8-4e5b-b2e7-a9d34630cf51"/>
+    <selectionType typeId="40c76638-1754-42e2-ae6b-6b8a29e3b5a7" valueTypeId="5fe2bf00-797a-440d-9af7-b49e4514fc9d"/>
+    <listType typeId="afb580a7-1b57-4789-b6b8-15987b4314b9" valueTypeId="0f802563-68e8-4ce7-a8ee-b736cf808775"/>
+    <managerType typeId="141cf74e-e122-4b86-969c-7a56f5723524" valueTypeId="05953605-a973-4585-b7a8-3485fbe0a383"/>
+  </producedTypes>
+  <name>Водители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Водители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Водители.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Водители.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Водитель</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Водители</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.Водители.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Водители.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Водители.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="512ae300-1738-414a-9048-fd015b978e8f">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4daf23ef-94dd-46f2-8b5d-afc4d5e5001a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89eb163c-c3a3-4516-97d5-f6d856a14ca0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3e7272c-b41d-4f04-be8b-4f9b8cc453ca">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

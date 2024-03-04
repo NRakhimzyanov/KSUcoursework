@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58777e66-7ad2-4e5f-b5af-8b9644a71872">
+  <producedTypes>
+    <objectType typeId="ddad531c-f63c-434e-b77b-06497f6e1838" valueTypeId="d2cf8385-d941-4b93-ae2a-e625961f90af"/>
+    <managerType typeId="2c6e000d-57c0-41b5-861a-3ae6421c18c7" valueTypeId="4b3ed59a-34be-4c64-adfb-d41f647b3a6b"/>
+  </producedTypes>
+  <name>МестонахождениеТранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождение транспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.МестонахождениеТранспорта.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="eda41660-9ffa-4fdc-ac30-fc597d69d117">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

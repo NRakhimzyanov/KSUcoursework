@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f052170-2c5e-4ed6-9a3c-2c0618a55d4b">
+  <producedTypes>
+    <refType typeId="955bc45c-d3fe-435f-9a96-0f9dd0960018" valueTypeId="070e2920-c190-46f8-ab82-2a443b1a11ab"/>
+    <listType typeId="154d4719-2a7c-4722-b11d-e4219632287a" valueTypeId="bf5a66b3-37d3-49a3-9175-57405410ec1c"/>
+    <managerType typeId="72778e01-2cd2-469e-a72d-8434076122f3" valueTypeId="0e5e2682-1a35-4124-8b21-5896801f2446"/>
+  </producedTypes>
+  <name>СостояниеЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние заказа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c86f0489-5296-44cf-8e8d-43b5f0a5a7cc">
+    <name>НеВыехали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выехали</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="760bd245-6370-4f1b-92ed-90af8257c5e8">
+    <name>ВДорогеККлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>В дороге к клиенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88417d17-2a2f-401b-a1ee-f330f7ab698c">
+    <name>УКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>У клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a53b0d11-20cf-4cfc-af1c-199a05ae9949">
+    <name>ВДорогеОбратно</name>
+    <synonym>
+      <key>ru</key>
+      <value>В дороге обратно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4aa306f3-8bd1-45bc-8742-2dac1aa0e900">
+    <name>Отработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
