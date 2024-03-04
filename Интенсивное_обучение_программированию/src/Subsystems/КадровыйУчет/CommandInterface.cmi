@@ -5,6 +5,7 @@
       <group>CommandGroup.УчетныеДанные</group>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ПроизводственныйКалендарь.StandardCommand.OpenList</commands>
+      <commands>Catalog.Должности.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ПериодическиеДанные</group>
@@ -18,4 +19,12 @@
       <commands>Document.РасчетнаяВедомость.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>CommandGroup.УчетныеДанные</group>
+      <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПроизводственныйКалендарь.StandardCommand.OpenList</commands>
+      <commands>Catalog.Должности.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

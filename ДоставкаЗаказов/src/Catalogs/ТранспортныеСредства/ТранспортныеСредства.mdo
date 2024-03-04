@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44ecfe2f-a90e-4ff8-91fa-b6a035b7f1d4">
+  <producedTypes>
+    <objectType typeId="732fb0e6-f7e3-460f-81c1-bf748f57ff4d" valueTypeId="594f0302-4c73-4757-8d14-972deec356c1"/>
+    <refType typeId="9f0767ef-8288-4b12-99eb-59cd898fe3ee" valueTypeId="d0f149ff-c06f-4904-a619-2ae1f041f073"/>
+    <selectionType typeId="f9f25a8a-c1fe-4f67-bfc6-1950d6b86fe6" valueTypeId="cfdcd152-a882-4944-8446-03a91f7f3764"/>
+    <listType typeId="15db800f-ccda-4137-80fe-03c5686039af" valueTypeId="d55d0bb1-1ad8-46cc-ad11-a46963d9b2cf"/>
+    <managerType typeId="efd1e72c-8498-4f6b-8084-69b3d065fe31" valueTypeId="ec35cbe8-a764-4199-a493-ffc1e9769103"/>
+  </producedTypes>
+  <name>ТранспортныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Транспортное средство</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.ТранспортныеСредства.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТранспортныеСредства.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТранспортныеСредства.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="15727568-8f33-4ae0-971b-dd3a9b1f8a7a">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a01da4a1-4e3c-44c4-b57b-f4463206c62a">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="74498eeb-2f2f-49c4-b13d-09a51f021fa1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95daeba5-9106-4cc1-85f9-3e12d26e1bd3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="19219b27-3af6-4d40-868c-82e75eb06aac">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

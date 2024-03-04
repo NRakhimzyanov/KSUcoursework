@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb9e791e-e4ed-40e2-87d6-ce78d46699e3">
+  <producedTypes>
+    <objectType typeId="d463e849-7560-42fe-96d0-c995f2352b02" valueTypeId="ed6f245c-37ba-4ea5-aede-e447a897e104"/>
+    <refType typeId="85631359-62e7-43a6-b936-52cfaf0053ef" valueTypeId="a88ca6ec-989b-480d-bc51-47e2f8a76fc4"/>
+    <selectionType typeId="0eb9a6e5-7e26-46b0-8ed2-208ce154f55d" valueTypeId="f9ae9335-2060-41f1-a974-5cdbf1072677"/>
+    <listType typeId="e43a73c0-fe72-4e79-89b8-23172bdbf717" valueTypeId="8a79df3e-b953-46c7-a4fe-084d6517d588"/>
+    <managerType typeId="d17cc0de-1d4f-4924-b627-e0f49f21d128" valueTypeId="03ca96ba-81d8-4b64-9e53-76c44f3b9ca0"/>
+  </producedTypes>
+  <name>ФормированиеБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование бригады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ФормированиеБригады.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Формирование бригады</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Формирование бригад</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ФормированиеБригады.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ФормированиеБригады.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ФормированиеБригады.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.СоставБригады</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3fb5c46d-8df4-4d74-b3dd-c9e3492ec014">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d73c6479-39da-4f7f-8e79-6621e581c849">
+    <name>ГрузчикПервый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузчик первый</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Грузчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5a724ac-7589-4acc-b62c-e0bcd3162700">
+    <name>ГрузчикВторой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузчик второй</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Грузчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c62f538f-3c53-48f0-b34c-fe2a218f084f">
+    <name>ПредрейсовыйМедицинскийОсмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предрейсовый медицинский осмотр</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="078ec76b-95e4-4820-a42d-9f90ee60d02f">
+    <name>ИнструктажПоТехникеБезопасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструктаж по технике безопасности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="835f31fd-677e-49e7-ab6d-34b50193adf1">
+    <name>Транспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1ccb621-ccc2-4f89-b2ba-c36aead112db">
+    <name>НачальныйПробег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальный пробег</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07acf090-3cce-4db1-9cac-343629592236">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="46954df3-9b96-4af7-baad-57d01dfa4386">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04bc0348-8c8e-41f5-abeb-f5c8da5f5936">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0dd8c9ef-5733-4a60-844d-74fba5c4ee19">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18e8cfb1-578c-4490-8689-39fcb100ba16">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="76c09a4a-713c-4501-9929-e8d259f3bd88"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="bf57382f-031e-414e-8367-99e720fe31f7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ed299730-856a-42ee-89b7-a55d47ea09e4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5442e49d-78a4-4d1e-9f71-bc7b521621b3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c4d90635-5a91-4db1-9c6f-fdf6eddd7991"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b28c3624-aeaa-4b8a-9ad9-2f33d17586ab"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8f0c0946-17c7-4a79-948a-07108e5f14ab"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="359fab87-f166-4afb-938f-0419030e8a25">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Общее</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.ТранспортныйОтдел</subsystems>
+  <roles>Role.Администрирование</roles>
+  <roles>Role.ОтделЗакупок</roles>
+  <roles>Role.ОтделПродаж</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <filterCriteria>FilterCriterion.НоменклатураВДокументах</filterCriteria>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
+  <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
+  <constants>Constant.НаименованиеКомпании</constants>
+  <constants>Constant.УчетПоСериям</constants>
+  <constants>Constant.УчетПоСкладам</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Водители</catalogs>
+  <catalogs>Catalog.Грузчики</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ИнструктажПоТехникеБезопасности</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.СвойстваОбъектов</catalogs>
+  <catalogs>Catalog.Серии</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.ЗаявкаНаТранспорт</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.ФормированиеБригады</documents>
+  <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.СостояниеЗаказа</enums>
+  <reports>Report.БригадыЗакрепленныеЗаТранспортом</reports>
+  <reports>Report.КонтрольныйОтчетПоТранспорту</reports>
+  <reports>Report.МестонахождениеТранспорта</reports>
+  <reports>Report.ПоступлениеТоваров</reports>
+  <reports>Report.ПродажиТоваров</reports>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.СоставБригады</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеДоставки</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПробегТранспорта</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

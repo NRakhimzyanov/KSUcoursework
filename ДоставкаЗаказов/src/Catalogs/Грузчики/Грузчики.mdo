@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af834eda-5752-4be4-90e2-11dca5583bb4">
+  <producedTypes>
+    <objectType typeId="d975c02e-ac02-457b-a964-76c93c5965f2" valueTypeId="d6eb66b9-f7b3-42f8-a407-b6862f412937"/>
+    <refType typeId="541f5a6c-d99d-4ed3-b2b5-aabadc99f780" valueTypeId="43022038-6488-40a9-8568-fe224842dd99"/>
+    <selectionType typeId="b8c7c987-a924-4a3a-84f9-792058383b6a" valueTypeId="98a9f1b9-92cb-4434-8ca5-a302fec1b828"/>
+    <listType typeId="9e8d72fc-6cfa-423f-bd53-cca32c6271d0" valueTypeId="247d7428-eae4-4a6e-9c8a-be812c470723"/>
+    <managerType typeId="6b5034c2-02c5-495b-b0f4-244f17860ae6" valueTypeId="f70efe9e-59d1-4613-ac37-b680db698050"/>
+  </producedTypes>
+  <name>Грузчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Грузчики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Грузчики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Грузчики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Грузчик</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Грузчики</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <defaultObjectForm>Catalog.Грузчики.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Грузчики.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Грузчики.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="3adf04ff-fafb-4794-b3b4-e11305c36b54">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c803ce90-5278-47b0-8b8b-ab912c07bbdc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71abd345-3cbf-498c-b080-b1f3e8d0a0b6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca5d8f58-d32e-4d65-a810-e14a9aaf8213">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

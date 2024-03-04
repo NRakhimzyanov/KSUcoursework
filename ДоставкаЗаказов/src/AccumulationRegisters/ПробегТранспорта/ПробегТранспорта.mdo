@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0bd9821-e1d9-4cd9-b690-03778fdf605c">
+  <producedTypes>
+    <selectionType typeId="48fe8fc0-61a9-48cf-947b-305d63f6beff" valueTypeId="4c2d888d-e01a-4566-b49c-be746f2c8fef"/>
+    <listType typeId="1c9f08eb-1b64-408e-b977-5e2983cd762b" valueTypeId="67eab7fd-01f1-4330-abd7-6db372f5817c"/>
+    <managerType typeId="69fc0702-efcf-418b-9e5f-950cb885d45f" valueTypeId="1260c453-93db-4188-b0f8-e24f081e230c"/>
+    <recordSetType typeId="5bb38210-00ef-45ac-88c6-317bf12671cb" valueTypeId="6da181f2-c63e-4d99-a387-04438a1e3cd5"/>
+    <recordKeyType typeId="84fd227a-1617-44c0-aa68-e2305dbe1a34" valueTypeId="954b83d7-d732-4c91-a496-a335d72d9542"/>
+    <recordType typeId="e1244280-402e-401b-8770-0f575b434c00" valueTypeId="554df00d-5455-4952-bbee-34cb10b41505"/>
+  </producedTypes>
+  <name>ПробегТранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пробег транспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Пробеги транспорта</value>
+  </listPresentation>
+  <resources uuid="909c9f1c-b2a4-4f46-8529-50d9d444887d">
+    <name>Рейсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейсы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0b6a312e-f2b9-48ba-8a4a-5344892632ee">
+    <name>НачальныйПробег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальный пробег</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="bf538eed-640f-47c8-b0ae-0b3e77ca3778">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="3479b497-d851-48d3-8a9b-78f49e84b77e">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="f762729f-aa72-4401-91a1-34adb60cfe4c">
+    <name>Транспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

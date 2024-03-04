@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68685a8d-c328-4acc-8ee9-e6136b511889">
+  <producedTypes>
+    <objectType typeId="411293e6-c6da-4d5c-b745-bd3e0a27b3fe" valueTypeId="1bd95847-f5a9-4797-95a5-d60056b4d69f"/>
+    <managerType typeId="eda59506-9c1d-49c8-8844-6f28dbaee127" valueTypeId="37623716-c2b9-493b-9873-7547c10b7436"/>
+  </producedTypes>
+  <name>КонтрольныйОтчетПоТранспорту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрольный отчет по транспорту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КонтрольныйОтчетПоТранспорту.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0727be93-d8ba-46c6-80fd-e17ba2323875">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

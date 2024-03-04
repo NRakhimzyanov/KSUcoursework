@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bebb86d8-a5b7-4223-9389-a6ab8d9c5a4d">
+  <producedTypes>
+    <objectType typeId="9258ea5e-15ef-44b4-8607-c04dffc68363" valueTypeId="fb5de07b-80aa-4683-9326-95d986bdd321"/>
+    <refType typeId="1762414c-bf02-422a-bcc1-ac65203863ed" valueTypeId="6525b54a-34a8-45ba-a64b-693d009c6caa"/>
+    <selectionType typeId="ce8c7abc-7ec0-40d0-99b3-7add9d1bf0cd" valueTypeId="048a461d-49ea-4100-a3dd-b53f072f4ba3"/>
+    <listType typeId="5711febb-6799-422a-aadb-03aa902c7204" valueTypeId="88c4f37e-55b7-489f-9bc4-cf89458d93f3"/>
+    <managerType typeId="a8b01e23-ced8-410d-a851-2a4ae34d4a3e" valueTypeId="b2765f1e-1e7b-4689-9088-58c8ca9c29de"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="adebbde4-6670-4954-802e-b89eecedefeb">
+      <name>грамм</name>
+      <description>гр</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="45931156-d0ee-4552-a7c3-0bce7ff763c4">
+      <name>штука</name>
+      <description>шт</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕдиницыИзмерения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЕдиницыИзмерения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЕдиницыИзмерения.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="9191922e-2b94-4918-8a1d-57681b943a42">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5d0b95b6-6e55-40da-878f-00100f6986d5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="666952ea-6cab-45a3-b475-577225386a2e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

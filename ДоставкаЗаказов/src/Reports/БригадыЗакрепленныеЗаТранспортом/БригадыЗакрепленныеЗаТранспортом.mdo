@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23d7350e-b2c6-4e49-8bbc-9aa0f6790277">
+  <producedTypes>
+    <objectType typeId="e0fd6b87-2f3e-4fde-b57c-51f7284c42b2" valueTypeId="b704ea4f-8a07-483b-a882-820d72f2a922"/>
+    <managerType typeId="5203730a-8a27-4b91-9545-388ba266204b" valueTypeId="6326424a-3a10-4cee-9626-7e6133b870d9"/>
+  </producedTypes>
+  <name>БригадыЗакрепленныеЗаТранспортом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бригады закрепленные за транспортом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.БригадыЗакрепленныеЗаТранспортом.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b35f793f-3a9f-4120-bffe-8d504caf327d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

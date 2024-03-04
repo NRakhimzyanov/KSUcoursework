@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b7cd66b-5d39-4c3b-a2fd-ee88686218c7">
+  <name>ТранспортныйОтдел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортный отдел</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ТранспортныеСредства</content>
+  <content>CommandGroup.ТранспортныеСредства</content>
+</mdclass:Subsystem>
