@@ -43,8 +43,12 @@
   <roles>Role.ОтделПродаж</roles>
   <roles>Role.ПолныеПрава</roles>
   <filterCriteria>FilterCriterion.НоменклатураВДокументах</filterCriteria>
+  <commonModules>CommonModule.ЗакупкиВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ПродажиВызовСервера</commonModules>
+  <commonModules>CommonModule.ТранспортныйОтделВызовСервера</commonModules>
+  <commonModules>CommonModule.ТранспортныйОтделКлиент</commonModules>
   <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
   <constants>Constant.НаименованиеКомпании</constants>

@@ -14,6 +14,8 @@
   <content>Report.МестонахождениеТранспорта</content>
   <content>Report.БригадыЗакрепленныеЗаТранспортом</content>
   <content>Report.КонтрольныйОтчетПоТранспорту</content>
+  <content>CommonModule.ТранспортныйОтделВызовСервера</content>
+  <content>CommonModule.ТранспортныйОтделКлиент</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>
