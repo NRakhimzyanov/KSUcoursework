@@ -80,7 +80,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>ФИО</value>
+      <value>Фамилия И.О.</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
