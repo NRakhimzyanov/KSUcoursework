@@ -120,7 +120,7 @@
   <defaultListForm>Catalog.Грузчики.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Грузчики.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="3adf04ff-fafb-4794-b3b4-e11305c36b54">
-    <name>ФИО</name>
+    <name>ФамилияИО</name>
     <synonym>
       <key>ru</key>
       <value>Фамилия И.О.</value>
@@ -153,7 +153,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="ca5d8f58-d32e-4d65-a810-e14a9aaf8213">
+  <forms uuid="d813a0fc-8a09-42ea-b4f4-fafc2b6b96f4">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>

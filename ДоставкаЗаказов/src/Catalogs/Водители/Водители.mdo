@@ -120,7 +120,7 @@
   <defaultListForm>Catalog.Водители.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Водители.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="512ae300-1738-414a-9048-fd015b978e8f">
-    <name>ФИО</name>
+    <name>ФамилияИО</name>
     <synonym>
       <key>ru</key>
       <value>Фамилия И.О.</value>
@@ -153,7 +153,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="b3e7272c-b41d-4f04-be8b-4f9b8cc453ca">
+  <forms uuid="30057717-6b5b-41bc-b7c8-6ae027e8cb16">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>

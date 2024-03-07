@@ -147,7 +147,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>Ссылка</name>
-      <id>25</id>
+      <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -156,7 +156,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
-        <id>27</id>
+        <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -171,7 +171,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СсылкаКонтекстноеМеню</name>
-        <id>26</id>
+        <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -204,10 +204,6 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
-    <handlers>
-      <event>ValueChoice</event>
-      <name>ВодителиВыборЗначения</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -425,18 +421,6 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ 
-       Водители.Ссылка, 
-       Водители.ПометкаУдаления, 
-       Водители.Код, 
-       Водители.Наименование, 
-       Водители.ФИО, 
-       Водители.Предопределенный, 
-       Водители.ИмяПредопределенныхДанных
- ИЗ 
-       Справочник.Водители
- КАК 
-       Водители</queryText>
       <mainTable>Catalog.Водители</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>

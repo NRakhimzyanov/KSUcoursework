@@ -51,23 +51,23 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ФИО</name>
-    <id>10</id>
+    <name>ФамилияИО</name>
+    <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ФИО</segments>
+      <segments>Объект.ФамилияИО</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
-      <name>ФИОПриИзменении</name>
+      <name>ФамилияИОПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ФИОРасширеннаяПодсказка</name>
-      <id>12</id>
+      <name>ФамилияИОРасширеннаяПодсказка</name>
+      <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -81,8 +81,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ФИОКонтекстноеМеню</name>
-      <id>11</id>
+      <name>ФамилияИОКонтекстноеМеню</name>
+      <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
