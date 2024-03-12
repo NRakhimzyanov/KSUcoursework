@@ -16,6 +16,8 @@
   <content>Report.КонтрольныйОтчетПоТранспорту</content>
   <content>CommonModule.ТранспортныйОтделВызовСервера</content>
   <content>CommonModule.ТранспортныйОтделКлиент</content>
+  <content>Role.Администрирование</content>
+  <content>Role.ПолныеПрава</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

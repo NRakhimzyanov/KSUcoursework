@@ -25,5 +25,6 @@
   <content>Catalog.ТранспортныеСредства</content>
   <content>Catalog.ИнструктажПоТехникеБезопасности</content>
   <content>Role.Администрирование</content>
+  <content>Role.ПолныеПрава</content>
   <parentSubsystem>Subsystem.Общее</parentSubsystem>
 </mdclass:Subsystem>

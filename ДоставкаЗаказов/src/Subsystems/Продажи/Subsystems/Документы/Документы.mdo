@@ -9,5 +9,8 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ПродажаТоваров</content>
   <content>Document.ЗаявкаНаТранспорт</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Role.Администрирование</content>
+  <content>Role.ОтделПродаж</content>
   <parentSubsystem>Subsystem.Продажи</parentSubsystem>
 </mdclass:Subsystem>

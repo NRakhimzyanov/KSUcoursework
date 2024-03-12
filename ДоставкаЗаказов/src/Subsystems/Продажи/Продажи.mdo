@@ -9,6 +9,9 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.ПродажиТоваров</content>
   <content>CommonModule.ПродажиВызовСервера</content>
+  <content>Role.Администрирование</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Role.ОтделПродаж</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
 </mdclass:Subsystem>

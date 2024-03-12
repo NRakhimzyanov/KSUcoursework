@@ -11,5 +11,7 @@
   <content>Catalog.Водители</content>
   <content>Catalog.Грузчики</content>
   <content>Catalog.ИнструктажПоТехникеБезопасности</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Role.Администрирование</content>
   <parentSubsystem>Subsystem.ТранспортныйОтдел</parentSubsystem>
 </mdclass:Subsystem>

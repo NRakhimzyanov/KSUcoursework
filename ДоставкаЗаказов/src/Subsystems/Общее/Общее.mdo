@@ -12,6 +12,7 @@
   <content>InformationRegister.ЦеныПоставщиков</content>
   <content>FilterCriterion.НоменклатураВДокументах</content>
   <content>Role.Администрирование</content>
+  <content>Role.ПолныеПрава</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>
