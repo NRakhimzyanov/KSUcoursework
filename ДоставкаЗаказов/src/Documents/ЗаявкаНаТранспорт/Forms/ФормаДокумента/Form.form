@@ -90,7 +90,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -831,7 +830,7 @@
             <id>49</id>
             <items xsi:type="form:FormField">
               <name>СостояниеЗаказа</name>
-              <id>43</id>
+              <id>104</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -842,7 +841,7 @@
               </dataPath>
               <extendedTooltip>
                 <name>СостояниеЗаказаРасширеннаяПодсказка</name>
-                <id>45</id>
+                <id>106</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -857,7 +856,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>СостояниеЗаказаКонтекстноеМеню</name>
-                <id>44</id>
+                <id>105</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -910,7 +909,6 @@
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <showTitle>true</showTitle>
-              <throughAlign>DontUse</throughAlign>
               <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
