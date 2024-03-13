@@ -14,10 +14,10 @@
   <content>Report.МестонахождениеТранспорта</content>
   <content>Report.БригадыЗакрепленныеЗаТранспортом</content>
   <content>Report.КонтрольныйОтчетПоТранспорту</content>
-  <content>CommonModule.ТранспортныйОтделВызовСервера</content>
   <content>CommonModule.ТранспортныйОтделКлиент</content>
   <content>Role.Администрирование</content>
   <content>Role.ПолныеПрава</content>
+  <content>CommonModule.ТранспортныйОтделСервер</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

@@ -44,11 +44,11 @@
   <roles>Role.ПолныеПрава</roles>
   <filterCriteria>FilterCriterion.НоменклатураВДокументах</filterCriteria>
   <commonModules>CommonModule.ЗакупкиВызовСервера</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.ПродажиВызовСервера</commonModules>
-  <commonModules>CommonModule.ТранспортныйОтделВызовСервера</commonModules>
   <commonModules>CommonModule.ТранспортныйОтделКлиент</commonModules>
+  <commonModules>CommonModule.ТранспортныйОтделСервер</commonModules>
   <functionalOptions>FunctionalOption.УчетПоСериям</functionalOptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
   <constants>Constant.НаименованиеКомпании</constants>
