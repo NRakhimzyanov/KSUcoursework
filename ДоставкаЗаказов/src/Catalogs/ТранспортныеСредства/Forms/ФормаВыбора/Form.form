@@ -55,6 +55,7 @@
     <items xsi:type="form:FormField">
       <name>Ссылка</name>
       <id>25</id>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:DataPath">

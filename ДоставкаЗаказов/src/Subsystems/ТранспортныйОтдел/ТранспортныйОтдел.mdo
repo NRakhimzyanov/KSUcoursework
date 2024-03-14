@@ -11,13 +11,14 @@
   <content>InformationRegister.СоставБригады</content>
   <content>AccumulationRegister.ПробегТранспорта</content>
   <content>InformationRegister.СостояниеДоставки</content>
-  <content>Report.МестонахождениеТранспорта</content>
+  <content>58777e66-7ad2-4e5f-b5af-8b9644a71872</content>
   <content>Report.БригадыЗакрепленныеЗаТранспортом</content>
   <content>Report.КонтрольныйОтчетПоТранспорту</content>
   <content>CommonModule.ТранспортныйОтделКлиент</content>
   <content>Role.Администрирование</content>
   <content>Role.ПолныеПрава</content>
   <content>CommonModule.ТранспортныйОтделСервер</content>
+  <content>Report.МестонахождениеТранспорта</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

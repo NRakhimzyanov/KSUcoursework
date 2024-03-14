@@ -47,26 +47,6 @@
       <value>Enum.СостояниеЗаказа.EnumValue.НеВыехали</value>
     </fillValue>
   </resources>
-  <resources uuid="e5b6829a-f6c7-40d7-bac1-2d388e60afc0">
-    <name>НачальныйПробег</name>
-    <synonym>
-      <key>ru</key>
-      <value>Начальный пробег</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>1</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <attributes uuid="3c2d01b5-944e-4700-a777-fbf5d7c84cd5">
     <name>АдресДоставки</name>
     <synonym>
@@ -103,56 +83,5 @@
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
-  </dimensions>
-  <dimensions uuid="fe314beb-a1c5-4e92-8018-77aea6b4bdde">
-    <name>Водитель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Водитель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Водители</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </dimensions>
-  <dimensions uuid="7db61109-f2b3-4452-bdee-be328034bc8a">
-    <name>ГрузчикПервый</name>
-    <synonym>
-      <key>ru</key>
-      <value>Грузчик первый</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Грузчики</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </dimensions>
-  <dimensions uuid="b4cf51c3-9dea-46b3-b1f1-a296f495a784">
-    <name>ГрузчикВторой</name>
-    <synonym>
-      <key>ru</key>
-      <value>Грузчик второй</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Грузчики</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
 </mdclass:InformationRegister>

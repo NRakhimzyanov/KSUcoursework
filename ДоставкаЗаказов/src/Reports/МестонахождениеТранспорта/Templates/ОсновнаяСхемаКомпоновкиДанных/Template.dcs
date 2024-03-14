@@ -18,18 +18,6 @@
 			<field>СостояниеЗаказа</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Водитель</dataPath>
-			<field>Водитель</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ГрузчикПервый</dataPath>
-			<field>ГрузчикПервый</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ГрузчикВторой</dataPath>
-			<field>ГрузчикВторой</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>АдресДоставки</dataPath>
 			<field>АдресДоставки</field>
 		</field>
@@ -45,12 +33,14 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	СостояниеДоставкиСрезПоследних.Транспорт КАК Транспорт,
-	СостояниеДоставкиСрезПоследних.СостояниеЗаказа КАК СостояниеЗаказа,
-	СостояниеДоставкиСрезПоследних.АдресДоставки КАК АдресДоставки,
-	СостояниеДоставкиСрезПоследних.Период КАК ДатаВремяИзменения
+	СостояниеДоставки.Транспорт КАК Транспорт,
+	СостояниеДоставки.СостояниеЗаказа КАК СостояниеЗаказа,
+	СостояниеДоставки.Период КАК ДатаВремяИзменения,
+	СостояниеДоставки.АдресДоставки КАК АдресДоставки
 ИЗ
-	РегистрСведений.СостояниеДоставки.СрезПоследних КАК СостояниеДоставкиСрезПоследних</query>
+	РегистрСведений.СостояниеДоставки КАК СостояниеДоставки
+ГДЕ
+	СостояниеДоставки.Период = &amp;Период</query>
 	</dataSet>
 	<parameter>
 		<name>Период</name>
@@ -87,6 +77,14 @@
 					<dcsset:field>АдресДоставки</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>4a0a5315-e57e-455f-8e35-6d6853c558a8</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
