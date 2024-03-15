@@ -162,4 +162,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="dd9238f0-6534-4cee-ae6d-65631bb90a53">
+    <name>ФормаВыбораГрузчикиВнеБригады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора грузчики вне бригады</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

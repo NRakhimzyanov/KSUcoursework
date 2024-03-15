@@ -28,51 +28,6 @@
     <key>ru</key>
     <value>Состав бригад</value>
   </listPresentation>
-  <resources uuid="9dea2dce-f754-4fbf-837a-4c50b70c4405">
-    <name>Водитель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Водитель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Водители</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="1535e73c-bf22-48f3-af45-9042e488001b">
-    <name>ГрузчикПервый</name>
-    <synonym>
-      <key>ru</key>
-      <value>Грузчик первый</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Грузчики</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="5e1a35fc-3c5d-4510-b199-2519258d4c13">
-    <name>ГрузчикВторой</name>
-    <synonym>
-      <key>ru</key>
-      <value>Грузчик второй</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Грузчики</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="5234add1-3cfc-44c9-803b-074f318bf32b">
     <name>НачальныйПробег</name>
     <synonym>
@@ -110,6 +65,51 @@
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
+  </dimensions>
+  <dimensions uuid="fbd11fac-ab3f-446b-b11a-405a8021b990">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="29a9a928-dda2-4bc7-9125-9f740964019e">
+    <name>ГрузчикПервый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузчик первый</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Грузчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="d06dcb30-cacd-4980-a5bd-c03bd90b46d1">
+    <name>ГрузчикВторой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузчик второй</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Грузчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
   <forms uuid="ef8abc04-b760-4db9-9804-a0894db4ca83">
     <name>ФормаСписка</name>

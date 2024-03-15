@@ -105,4 +105,22 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="a72ec88c-d3ef-4593-b795-23ea2acb35b1">
+    <name>ФормаВыбораТранспортБезБригады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора транспорт без бригады</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04a21cdd-11f7-472f-ad91-ad340ee70c60">
+    <name>ФормаВыбораТранспортСБригадой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора транспорт с бригадой</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
